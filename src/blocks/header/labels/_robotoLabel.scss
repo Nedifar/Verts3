@@ -1,0 +1,19 @@
+.robotoLabel {
+    letter-spacing: 0.1em;
+
+    &_sz-10{
+        font-size: 10px;
+    }
+
+    &_font-default {
+        font-family: 'RobotoRegular';
+    }
+
+    &_font-medium {
+        font-family: 'RobotoMedium';
+    }
+
+    &_blue{
+        color: #3D4F9F;
+    }
+}

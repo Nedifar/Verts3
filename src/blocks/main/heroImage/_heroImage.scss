@@ -1,0 +1,10 @@
+.heroImage{
+    display: flex;
+    flex-direction: column;
+    padding-top: 92px;
+    align-items: center;
+
+    &__quicksandLabel{
+        margin-top: 16px;
+    }
+}

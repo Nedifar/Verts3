@@ -1,0 +1,9 @@
+.shareIcon{
+    height: 14px;
+    fill: #B6BAC7;
+    transition: fill .3s;
+    
+    &:hover{
+        fill: blue;
+    }
+}

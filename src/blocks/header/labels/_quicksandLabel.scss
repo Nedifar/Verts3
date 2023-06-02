@@ -1,0 +1,38 @@
+.quicksandLabel {
+    text-align: center;
+    letter-spacing: 0.05em;
+    
+    &_font-default{
+        font-family: 'QuicksandMedium';
+    }
+
+    &_font-bold{
+        font-family: 'QuicksandBold';
+    }
+
+    &_font-light{
+        font-family: 'QuicksandLight';
+    }
+
+    &_sz-12 {
+        font-size: 12px;
+    }
+
+    &_sz-48 {
+        font-size: 48px;
+        letter-spacing: 0em;
+    }
+
+    &_selected {
+        color: #5E81FE;
+        font-family: 'QuicksandBold';
+    }
+
+    &_gray{
+        color: #697CA6;
+    }
+
+    &_blue{
+        color: #3D4F9F;
+    }
+}

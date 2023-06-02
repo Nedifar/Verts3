@@ -1,0 +1,14 @@
+@import './style/fonts.scss';
+@import './style/style.scss';
+@import './style/variables.scss';
+
+@import './blocks/header/header';
+@import './blocks/header/labels/quicksandLabel';
+@import './blocks/header/labels/robotoLabel';
+@import './blocks/header/ellipse/ellipse';
+@import './blocks/header/nav/nav';
+@import './blocks/header/shareIcons/shareIcons';
+@import './blocks/header/shareIcons/shareIcon/shareIcon';
+@import './blocks/header/button/button';
+@import './blocks/main/main';
+@import './blocks/main/heroImage/heroImage';

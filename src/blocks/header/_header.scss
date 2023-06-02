@@ -1,0 +1,30 @@
+.header {
+
+    & * {
+        position: relative;
+        z-index: 2;
+    }
+
+    .headerImg {
+        position: absolute;
+        z-index: 1;
+    }
+
+    display: flex;
+    border-bottom: 1px solid #D8E3FE;
+    padding: 0px 117px;
+    height: 80px;
+    align-items: center;
+
+    &__nav{
+        padding-left: 74px;
+    }
+
+    &__empty{
+        flex-grow: 2;
+    }
+
+    &__button{
+        margin-left: 45px;
+    }
+}
