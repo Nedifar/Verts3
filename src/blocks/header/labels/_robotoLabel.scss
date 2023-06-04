@@ -1,8 +1,22 @@
 .robotoLabel {
     letter-spacing: 0.1em;
+    text-align: center;
+    display: block;
 
-    &_sz-10{
+    &_sz-10 {
         font-size: 10px;
+    }
+
+    &_sz-14 {
+        letter-spacing: 0.03em;
+        line-height: 26.74px;
+        font-size: 14px;
+    }
+
+    &_sz-15 {
+        letter-spacing: 0.03em;
+        line-height: 29px;
+        font-size: 15px;
     }
 
     &_font-default {
@@ -13,7 +27,19 @@
         font-family: 'RobotoMedium';
     }
 
-    &_blue{
+    &_blue {
         color: #3D4F9F;
+    }
+
+    &_gray-blue {
+        color: #8D96BD;
+    }
+
+    &_dark-blue {
+        color: #676F95;
+    }
+
+    &_white{
+        color: #ffffff;
     }
 }

@@ -1,0 +1,13 @@
+.input {
+    width: 279px;
+    height: 59px;
+    background: #EFEFF7;
+    border-radius: 5px;
+    border: 0;
+    padding: 21px 23px;
+
+    &::placeholder{
+        font-family: 'QuicksandBold';
+        color: #7A85AD;
+    }
+}

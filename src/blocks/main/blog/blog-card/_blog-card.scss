@@ -1,0 +1,48 @@
+.blog-card {
+    padding: 63px 41px 63px 35px;
+    border: 1px solid #D8E3FE;
+    box-shadow: 0px 15px 50px #EFF4FF;
+    display: grid;
+    width: 958px;
+    height: 394px;
+    gap: 67px;
+    grid-template-columns: repeat(2, 1fr);
+    background: white;
+
+    &__image-group {
+        display: grid;
+        grid-template-areas:
+            'A A B'
+            'A A C';
+            width: 407px;
+    }
+
+    &__notepad {
+        grid-area: A;
+        background-image: url('./blocks/main/blog/blog-card/img/notepad.png');
+        width: 267.32px;
+        height: 267px;
+        background-size: contain;
+    }
+
+    &__notebook {
+        grid-area: B;
+        align-self: flex-start;
+    }
+
+    &__people {
+        grid-area: C;
+        align-self: flex-end;
+    }
+
+    &__label{
+        text-align: start;
+        margin-bottom: 25px;
+    }
+
+    &__btn-group{
+        margin-top: 46px;
+        display: flex;
+        gap: 22px;
+    }
+}

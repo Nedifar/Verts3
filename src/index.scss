@@ -1,10 +1,12 @@
 @import './style/fonts.scss';
 @import './style/style.scss';
 @import './style/variables.scss';
+@import './style/mixins.scss';
 
 @import './blocks/header/header';
 @import './blocks/header/labels/quicksandLabel';
 @import './blocks/header/labels/robotoLabel';
+@import './blocks/header/labels/openSans';
 @import './blocks/header/ellipse/ellipse';
 @import './blocks/header/nav/nav';
 @import './blocks/header/shareIcons/shareIcons';
@@ -12,3 +14,20 @@
 @import './blocks/header/button/button';
 @import './blocks/main/main';
 @import './blocks/main/heroImage/heroImage';
+@import './blocks/main/heroImage/trinagle/trinagle';
+@import './blocks/main/heroImage/cloud/cloud';
+@import './blocks/main/heroImage/message/message';
+@import './blocks/main/partners/partners';
+@import './blocks/main/partners/partner-item/partner-item';
+@import './blocks/main/plan-and-manage/plan-and-manage';
+@import './blocks/main/about-app/about-app';
+@import './blocks/main/statistics/statistics';
+@import './blocks/main/blog/blog';
+@import './blocks/main/blog/blog-card/blog-card';
+@import './blocks/main/quotes/quotes';
+@import './blocks/main/asked-questions/asked-question';
+@import './blocks/main/asked-questions/asked-item/asked-item';
+@import './blocks/main/started-now/started-now';
+@import './blocks/main/sign-up/sign-up';
+@import './blocks/main/input/input';
+@import './blocks/footer/footer';

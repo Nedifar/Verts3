@@ -1,0 +1,39 @@
+.partner-item {
+    width: 116px;
+    background-color: #D6DAE5;
+    transition: background-color .3s;
+
+    &:hover {
+        background-color: blue;
+    }
+
+    &_bitbucket {
+        mask-image: url('./blocks/main/partners/img/bitBucket.svg');
+        -webkit-mask-image: url('./blocks/main/partners/img/bitBucket.svg');
+        height: 29px;
+    }
+
+    &_apple-watch {
+        mask-image: url('./blocks/main/partners/img/appleWatch.svg');
+        -webkit-mask-image: url('./blocks/main/partners/img/appleWatch.svg');
+        height: 24.29px;
+    }
+
+    &_facebook {
+        mask-image: url('./blocks/main/partners/img/facebook.svg');
+        -webkit-mask-image: url('./blocks/main/partners/img/facebook.svg');
+        height: 22.37px;
+    }
+
+    &_atlassian {
+        mask-image: url('./blocks/main/partners/img/attlassian.svg');
+        -webkit-mask-image: url('./blocks/main/partners/img/attlassian.svg');
+        height: 24.07px;
+    }
+
+    &_audi {
+        mask-image: url('./blocks/main/partners/img/audi.svg');
+        -webkit-mask-image: url('./blocks/main/partners/img/audi.svg');
+        height: 28.94px;
+    }
+}

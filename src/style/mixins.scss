@@ -1,0 +1,5 @@
+@mixin cloud-sz($size) {
+    border: $size solid transparent;
+    border-bottom: $size solid white;
+    border-left: $size solid white;
+}

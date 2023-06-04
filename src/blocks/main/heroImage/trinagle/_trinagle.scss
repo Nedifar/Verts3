@@ -1,0 +1,11 @@
+.trinagle{
+    position: absolute;
+    transform:translate(-75%, -50%);
+    top: 50%;
+    left: 75%;
+
+    &_sz-small{
+        border: 10px solid transparent;
+        border-left: 10px solid #5E81FF;
+    }
+}

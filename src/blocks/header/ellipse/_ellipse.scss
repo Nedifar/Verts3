@@ -1,12 +1,57 @@
 .ellipse {
     border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
 
     &_blue {
         background-color: #5E81FE;
     }
 
+    &_white {
+        background-color: white;
+    }
+
+    &_gray {
+        background-color: #D1D6E3;
+    }
+
+    &_light-gray {
+        background-color: #F1F5FF;
+    }
+
+    &_light-blue {
+        background-color: #5283FF;
+    }
+
     &_sz-logo {
         width: 26px;
         height: 26px;
+    }
+
+    &_sz-small{
+        width: 52px;
+        height: 52px;
+    }
+
+    &_sz-ultra-small{
+        width: 8px;
+        height: 8px;
+    }
+
+    &_sz-15{
+        width: 15px;
+        height: 15px;
+    }
+
+    &_sz-69{
+        width: 69px;
+        height: 69px;
+    }
+
+    &_bd-blue{
+        border: 2px solid #5E81FE;
     }
 }

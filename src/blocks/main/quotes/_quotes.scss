@@ -1,0 +1,67 @@
+.quotes {
+    display: flex;
+    height: 479px;
+    width: 100%;
+    padding-left: 276px;
+    gap: 11.4%;
+    background: linear-gradient(180deg, #EAF0FF 0%, #F6F9FF 100%);
+    
+    &__text-block {
+        display: flex;
+        flex-direction: column;
+        width: 333px;
+        min-width: 333px;
+        padding-top: 146px;
+    }
+    
+    &__label {
+        text-align: start;
+    }
+    
+    &__quicksandLabel {
+        letter-spacing: 0;
+        margin-top: 30px;
+        margin-bottom: 16px;
+    }
+    
+    &__messages-wrapper {
+        margin-top: 110px;
+        flex-grow: 2;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    &__messages {
+        position: relative;
+        margin-top: 0px;
+        display: flex;
+        gap: 64px;
+    }
+
+    &__message-item {
+        display: flex;
+        padding: 0px 61px;
+        width: 423px;
+        height: 175px;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #D8E3FE;
+        box-shadow: 0px 5px 50px #F3F5FA;
+        position: relative;
+        background: white;
+
+        &::after{
+            content: url('./blocks/main/quotes/img/personIcon.png');
+            position: absolute;
+            bottom: -40px;
+        }
+    }
+
+    &__transition-points{
+        display: flex;
+        justify-content: start;
+        gap: 12px;
+        margin-top: 78px;
+        margin-left: 126px;
+    }
+}

@@ -1,0 +1,26 @@
+.sign-up{
+    display: flex;
+background: white;
+    justify-content: center;
+    align-items: center;
+    height: 332px;
+    width: 100%;
+    border-bottom: 1px solid #D8E3FE;
+
+    &__label{
+        text-align: start;
+    }
+
+    &__robotoLabel{
+        width: 360px;
+        margin-top: 19px;
+    }
+
+    &__input{
+        margin-left: 50px;
+    }
+
+    &__button{
+        margin-left: 15px;
+    }
+}

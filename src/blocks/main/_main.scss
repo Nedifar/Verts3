@@ -1,6 +1,19 @@
-.main{
-    height: 570px;
+.main {
     position: relative;
     z-index: 2;
-    // background: linear-gradient(180deg, #F4F7FF 0%, #F1F5FF 100%);
+    overflow: hidden;
+
+    &__plan-and-manage {
+        display: flex;
+        padding-left: 19%;
+        gap: 55px;
+    }
+
+    &__about-app{
+        padding-bottom: 200px;
+    }
+
+    &__blog{
+        padding-top: 75px;
+    }
 }

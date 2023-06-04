@@ -1,0 +1,53 @@
+.asked-item {
+    border-bottom: 1px solid #D8E3FE;
+    max-height: 79px;
+    height: 193px;
+    padding: 30px 15px 30px 58px;
+    width: 51%;
+    transition: max-height .3s;
+
+    &[open] {
+        max-height: 193px;
+    }
+
+    &__header {
+        position: relative;
+        list-style-type: none;
+        text-align: start;
+
+        &::before {
+            content: url('./blocks/main/asked-questions/asked-item/img/arrow.png');
+            transition: transform 0.3s;
+            position: absolute;
+            margin-right: 18px;
+            left: -40px;
+        }
+
+        &::-webkit-details-marker {
+            display: none;
+        }
+    }
+
+    &__content {
+        display: grid;
+        grid-template-columns: 1fr 195px;
+        align-items: start;
+        justify-items: flex-start;
+        padding-left: 10px;
+        padding-top: 20px;
+        gap: 50px;
+    }
+
+    &__text {
+
+        text-align: start;
+    }
+
+    &__btn {
+        width: 225px;
+    }
+
+    &[open] &__header::before {
+        transform: rotate(180deg);
+    }
+}

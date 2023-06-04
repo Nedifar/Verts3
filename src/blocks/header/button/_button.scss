@@ -1,9 +1,53 @@
-.button{
+.button {
     padding: 13px 16px;
     border: 0;
     cursor: pointer;
+    border-radius: 2px;
+    box-shadow: 0px 5px 15px rgba(116, 104, 255, 0.2);
 
-    &_light-blue{
+    &_light-blue {
         background: #D2E1FF;
+        color: #3A79FF;
+    }
+
+    &_sz-big {
+        padding: 21px 62px;
+        border-radius: 5px;
+    }
+
+    &_blue {
+        background: #4C85FF;
+    }
+
+    &_dark-blue {
+        background: #4D6CE1;
+    }
+
+    &_white {
+        background: #ffffff;
+        color: #565F82;
+    }
+
+    &_light-orange {
+        background: #FFD7D7;
+        color: #D43F3F;
+    }
+
+    &_gray {
+        background: #E8ECF4;
+        color: #7382A3;
+    }
+
+    &_transparent {
+        background: transparent;
+        border: 1px solid #D1D1E4;
+    }
+
+    &_bd-light-blue {
+        border: 1px solid #A0B4FF;
+    }
+
+    &_transparent-not-bd {
+        background: transparent;
     }
 }

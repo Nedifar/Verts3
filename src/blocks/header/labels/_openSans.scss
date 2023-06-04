@@ -1,0 +1,38 @@
+.open-sans {
+    text-align: center;
+
+    &_blue {
+        color: #4074F8;
+    }
+
+    &_gray {
+        color: #ADB3CB;
+    }
+
+    &_light-gray {
+        color: #A4ABC8;
+    }
+
+    &_font-bold {
+        font-family: 'OpenSansBold';
+    }
+
+    &_sz-default {
+        font-size: 14px;
+    }
+
+    &_sz-11 {
+        line-height: 19px;
+        font-size: 11px;
+    }
+
+    &_sz-12 {
+        font-size: 12px;
+        line-height: 23px;
+        letter-spacing: 0.03em;
+    }
+
+    &_font-default {
+        font-family: 'OpenSansSemiBold';
+    }
+}
